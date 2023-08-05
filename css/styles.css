@@ -51,7 +51,7 @@ img {
   display: grid;
   place-items: center;
 }
-.typed-out {
+.text {
   width: 150%;
   height: 100%;
   overflow: hidden;

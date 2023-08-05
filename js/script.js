@@ -15,6 +15,9 @@ btnEl.addEventListener("click", btnElClickHandler);
 
 function btnElClickHandler(e) {
   text = inputEl.value.toLowerCase();
+  if (!text) {
+    return window.alert("Enter minimum 1 symbol");
+  }
 
   charactersItemEl.lastElementChild.textContent = `${countsSymbols(text)}`;
   wordsItemEl.lastElementChild.textContent = `${countsWords(text)}`;
@@ -22,6 +25,8 @@ function btnElClickHandler(e) {
   lettersItemEl.lastElementChild.textContent = `${countsLetters(text)}`;
   charsItemEl.lastElementChild.textContent = `${countsChars(text)}`;
   digitsItemEl.lastElementChild.textContent = `${countsDigits(text)}`;
+
+  inputEl.value = "";
 }
 
 function countsSymbols(t) {
@@ -63,17 +68,12 @@ function countsDigits(t) {
 
 new Textify(
   {
-    el: ".typed-out",
-    splitType: "lines",
-    largeText: true,
-
+    el: ".container-title",
     animation: {
-      by: "lines",
-      stagger: 0.1,
-      duration: 0.4,
+      stagger: 0.05,
+      duration: 0.7,
       ease: "expo.inOut",
-      transformOrigin: "left top",
-      animateProps: { y: "0", opacity: 0 },
+      animateProps: { rotate: 60, scale: 0, y: 0 },
     },
   },
   gsap

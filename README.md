@@ -5,8 +5,8 @@
 <h2>🔥Features</h2>
   <ul>
     <li><strong>Text Analysis Statistics:</strong> The Text Analyzer provides essential statistics, such as word count, character count, sentence count, and average words per sentence. These metrics offer valuable insights into the complexity and structure of the text.</li>
-    <li><strong>User-Friendly Interface:</strong>With a clean and intuitive interface, the Text Analyzer is designed to be user-friendly, allowing users to analyze their text with ease, even without technical expertise.</li>
-    <li><strong>Data Privacy and Security:</strong>The project prioritizes data privacy and security, ensuring that users' text input is not stored or shared beyond the scope of the analysis.</li>
+    <li><strong>User-Friendly Interface: </strong>With a clean and intuitive interface, the Text Analyzer is designed to be user-friendly, allowing users to analyze their text with ease, even without technical expertise.</li>
+    <li><strong>Data Privacy and Security: </strong>The project prioritizes data privacy and security, ensuring that users' text input is not stored or shared beyond the scope of the analysis.</li>
   </ul>
     <h2>🔗Link</h2>
 https://dasha-musienko.github.io/text-analyzer/

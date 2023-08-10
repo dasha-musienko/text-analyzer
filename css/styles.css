@@ -166,8 +166,7 @@ img {
   transition: all 0.4s;
 }
 
-.btn:hover,
-.btn:focus {
+.btn:hover {
   box-shadow: inset 0 0 0 4px #3d4aff, inset 0 0 0 8px #5661ff,
     inset 0 0 0 12px #757eff, inset 0 0 0 16px #7c84ff;
   background: #7c84ff;
